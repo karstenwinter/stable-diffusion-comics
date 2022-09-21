@@ -1,3 +1,3 @@
 # stable-diffusion-comics
 
-<b> TEst </b>
+<b>Test</b>
