@@ -1,5 +1,6 @@
-window.onload = () =>
+window.addEventListener('DOMContentLoaded', (event) => 
 {
+  console.log("fired DOMContentLoaded")
   const status = document.getElementsByClassName("text bottom-right")[0]
   const arr = Array.from(document.getElementsByTagName("img"))
   console.log({status, arr})
@@ -31,4 +32,4 @@ window.onload = () =>
   }
 
   iter(0)
-}
+});
